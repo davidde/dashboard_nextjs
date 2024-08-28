@@ -2,7 +2,7 @@
 
 This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+For more information, see the [course curriculum](https://nextjs.org/learn/dashboard-app) on the Next.js Website.
 
 
 ### Note on Authentication Environment Variables in Chapter 15
@@ -21,3 +21,25 @@ It is not required when `Automatically expose System Environment Variables` is c
 #### Test authentication credentials
 * Email: user@nextmail.com
 * Password: 123456
+
+### Running the project locally
+* Clone this repo, and cd into it in your terminal:
+  ```
+  git clone https://github.com/davidde/dashboard_nextjs.git
+  cd dashboard_nextjs
+  ```
+* (If you don't have pnpm installed, you can install it globally by running:)
+  ```
+  npm install -g pnpm
+  ```
+  This same command is used to update pnpm.  
+  (pnpm itself will tell you to update with `pnpm add -g pnpm`, but this will not work when pnpm is installed with npm, so just update with npm.)
+* Run `pnpm i` to install the project's packages:
+  ```
+  pnpm i
+  ```
+* Then run `pnpm dev` to start the development server:
+  ```
+  pnpm dev
+  ```
+  `pnpm dev` starts the Next.js development server on port 3000, so open http://localhost:3000 in the browser.
